@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-.clock-face {
+.clock-face{
   height: 300px;
   margin: 50px auto;
   position: relative;
@@ -38,12 +38,15 @@ html {
 }
 
 @keyframes hand-rotate {
+
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
+
 }
 
 .hand-hour {
